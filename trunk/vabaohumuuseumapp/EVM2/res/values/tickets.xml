@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_ticket_prices">Ticket prices</string>
+    <string name="tickets_summer"></string>
+    <string name="tickets_winter"></string>
+    <string name="textView_tickets_static">"
+Discount price is valid for disabled people, recruits, students up to 26 years of age and seniors over 64 years of age. Respective document may be required at the ticket office.
+
+Family ticket is valid for one or two adults (parents) and their children up to 26 years of age (student document required for those older than schoolchild age).
+
+ 
+
+FREE OF CHARGE
+
+two teachers per every 10 child/student, a guide per every 10 tourists; owners of ICOM card, press card, museum employee card, Tallinn Card; children up to 8 years of age; children with disabilities (under 16 years old).
+
+Free admission days: International Museum Day May 18, St George\'s Day April 23, Michaelmas September 29 (except tourist groups and prebooked events participants).
+
+ 
+
+ANNUAL ENTRANCE PASS
+
+Individual pass 22.50 EUR
+Family pass  45 EUR 
+
+Annual pass gives the right to visit museum during one year since the day of pass\' purchase. Annual pass is also valid for museum\'s major events (except theatrical performances and concerts at extra prices).
+
+ 
+
+COMBINED TICKETS FOR THE ESTONIAN OPEN AIR MUSEUM AND TALLINN ZOO
+
+Combined family ticket for the Estonian Open Air Museum and Tallinn Zoo is valid for one-time visit to both museum and zoo. Ticket price in summer season is 22 EUR, in winter season 12 EUR.
+
+Combined annual family ticket for the Estonian Open Air Museum and Tallinn Zoo gives the opportunity to visit both places during one year as many times as holder desires. Combined annual family ticket price is  105 EUR, it is sold both at museum's and zoo ticket offices.
+
+NB! Combined family tickets are not valid at the events with special prices and are not a subject to any discounts.
+   " </string>
+    
+</resources>

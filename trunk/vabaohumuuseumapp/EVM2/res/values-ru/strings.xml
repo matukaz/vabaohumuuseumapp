@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opening_hours">В летний сезон с 10 до 20 часов, хутора с 10 до 18 часов.</string>
+	<string name="button_map">Карта музея</string>
+    <string name="button_tickets">Билеты</string>
+    <string name="button_object_list">Экспозиция</string>
+    <string name="button_show_on_map">Показать на карте</string>
+    <string name="button_services">Услуги</string>
+    <string name="button_journeys">Прогулки</string>
+    <string name="message_gps_off">Включите ваш GPS и разверните экран, чтобы увидеть ваше местоположение на карте</string>
+    <string name="opening_hours_summer">Сегодня с 10 до 20 часов, хутора с 10 до 18 часов</string>
+	<string name="opening_hours_winter">Сегодня с 10 до 17 часов</string>
+	<string name="opening_hours_closed">Сегодня закрыто</string>
+	<string-array name="journey_names">
+	    <item>Природа</item>
+	    <item>Зима</item>
+	    <item>Истории и легенды</item>
+	    <item>Приключение с детьми</item>
+	</string-array>
+	<string-array name="journey_descriptions">
+	    <item>Информация скоро появится</item>
+	    <item>Информация скоро появится</item>
+	    <item>Информация скоро появится</item>
+	    <item>Информация скоро появится</item>
+	</string-array>
+	<string-array name="museum_services">
+	    <item>Аренда транспорта</item>
+	    <item>Прогулки на лошадях</item>
+	    <item>Аудио гид</item>
+	</string-array>
+	<string-array name="service_descriptions">
+	    <item>Мы можем предложить Вам велосипеды, инвалидные кресла и коляски в летнее время и сани в зимнее. Все это доступно в доме возле забора.</item>
+	    <item>Прогулки на лошадях доступны каждый день с 11:00 - 16:00. В коляску или сани вмещаются до 10 человек. Место встречи у Kolu Inn. \n\nПРЕДЛОЖЕНИЕ! \nЕсли вы покупаете в кассе комбинированный билет на прогулку на лошадях и поход в музей, то платите меньше! Но комбинированный билет имеет более короткую поездку. Дополнительная информация <a href="http://evm.ee/eng/good-to-know/museum-services/horse-and-cart-rides">здесь.</a></item>
+	    <item>Мы предоставляем аудио гиды на Эстонском, Английском, Русском, Немецом, Финском и Шведском языках</item>
+	</string-array>
+</resources>

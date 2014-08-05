@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrepeat"
+    tools:context=".Home" >
+	<ScrollView
+	    android:id="@+id/scrollview1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginBottom="21dp"
+	    android:adjustViewBounds="true" >
+	<RelativeLayout
+		    android:id="@+id/museumObjectLayout"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:adjustViewBounds="true"
+		    android:paddingBottom="@dimen/activity_vertical_margin"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+		    android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:paddingTop="@dimen/activity_vertical_margin"
+		    tools:context=".Home" >
+    <ImageView
+        android:id="@+id/imageView_museumObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:id="@+id/opening_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/imageView_museumObject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opening_hours"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:alpha="0.9"
+        android:background="@color/button_bg_brown"
+        android:onClick="openMapView"
+        android:padding="12dp"
+        android:text="@string/button_map"
+        android:textColor="@color/button_font_white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@id/button1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="7dp"
+        android:alpha="0.9"
+        android:background="@color/button_bg_brown"
+        android:onClick="openJourneysView"
+        android:padding="12dp"
+        android:text="@string/button_journeys"
+        android:textColor="@color/button_font_white" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="7dp"
+        android:alpha="0.9"
+        android:background="@color/button_bg_brown"
+        android:onClick="openObjectListActivity"
+        android:padding="12dp"
+        android:text="@string/button_object_list"
+        android:textColor="@color/button_font_white" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="7dp"
+        android:alpha="0.9"
+        android:background="@color/button_bg_brown"
+        android:onClick="openServicesView"
+        android:padding="12dp"
+        android:text="@string/button_services"
+        android:textColor="@color/button_font_white" />
+	</RelativeLayout>
+	</ScrollView>
+    <ImageView
+        android:id="@+id/image_stripes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/backrepeat_stripe"
+        android:contentDescription="Triibuline"
+        android:cropToPadding="false"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

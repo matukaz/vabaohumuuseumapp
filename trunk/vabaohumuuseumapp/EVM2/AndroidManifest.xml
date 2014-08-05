@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evm.museum"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/ab_logo"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.evm.museum.Home"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.evm.museum.MuseumMapActivity"
+            android:label="@string/title_activity_museum_map"
+            android:parentActivityName="com.evm.museum.Home"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.Home" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.GeneralInfoActivity"
+            android:label="@string/title_activity_general_info"
+            android:parentActivityName="com.evm.museum.Home"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.Home" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.MuseumObjectActivity"
+            android:label="@string/title_activity_museum_object"
+            android:parentActivityName="com.evm.museum.ObjectListActivity"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.ObjectListActivity" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.ObjectListActivity"
+            android:label="@string/title_activity_object_list"
+            android:parentActivityName="com.evm.museum.Home"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.Home" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:parentActivityName="com.evm.museum.Home"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.Home" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.ServiceActivity"
+            android:label="@string/title_activity_service"
+            android:parentActivityName="com.evm.museum.ServicesActivity"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.ServicesActivity" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.JourneysActivity"
+            android:label="@string/title_activity_journeys"
+            android:parentActivityName="com.evm.museum.Home"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.Home" />
+        </activity>
+        <activity
+            android:name="com.evm.museum.JourneyInfoActivity"
+            android:label="@string/title_activity_journey_info" 
+            android:parentActivityName="com.evm.museum.JourneysActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evm.museum.JourneysActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+           parent="@style/Theme.AppCompat.Light.DarkActionBar">
+<!--       <item name="android:actionBarStyle">@style/MyActionBar</item> --> <!-- Doesn't work pre 11 -->
+
+			<!-- <item name="android:background">@drawable/backrepeat</item>-->
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>#37270c#37270c#37270c#37270c#37270c
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!--<item name="android:background">@drawable/gray</item>-->
+		<item name="logo">@drawable/ab_logo</item>
+        <!-- Support library compatibility -->
+        <!-- <item name="background">@drawable/gray</item> -->
+    </style>
+    <color name="button_bg_brown">#604322</color>
+    <color name="button_font_white">#FFFFFF</color>
+    
+</resources>
