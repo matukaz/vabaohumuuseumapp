@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="museum_services">
+        <item>Vehicle rent</item>
+        <item>Horse rides</item>
+        <item>Audioguide</item>
+    </string-array>
+    <string-array name="service_descriptions">
+        <item>We offer bicycles, wheelchairs and carts in the summer and kick sledges in the winter. All vehicles are available from the gate house.</item>
+        <item>"Horse and cart rides are available daily at 11:00 - 16:00. There\'s room for up to 10 people in one cart or sleigh. The meeting place is opposite the Kolu Inn.\n\nSUGGESTION!
+Purchase horse ride ticket combined with museum ticket at museum ticket office and pay less! Combined ticket features a shorter ride.
+See more <a href="http://evm.ee/eng/good-to-know/museum-services/horse-and-cart-rides">here</a>"</item>
+        <item>We offer audioguides in Estonian, English, Russian, German, Finnish and Swedish languages.</item>
+    </string-array>
+</resources>

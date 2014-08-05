@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="poi_latitudes">
+        <item>59.4323</item><!-- sassijaani -->
+        <item>59.4326</item><!-- kostriaseme -->
+        <item>59.4329</item><!-- nuki -->
+        <item>59.4346</item><!-- n2tsi -->
+        <item>59.4338</item>
+        <item>59.4336</item>
+        <item>59.4353</item>
+        <item>59.4354</item>
+        <item>59.4332</item>
+        <item>59.4355</item>
+        <item>59.4367</item>
+        <item>59.4372</item>
+        <item>59.4373</item>
+        <item>59.4378</item>
+        <item>59.4362</item>
+        <item>59.4372</item>
+        <item>59.4366</item>
+        <item>59.4372</item>
+        <item>59.4372</item>
+        <item>59.4380</item>
+        <item>59.4378</item>
+        <item>59.4369</item>
+        <item>59.4349</item>
+        <item>59.4344</item>
+        <item>59.4347</item>
+        <item>59.4341</item>
+        <item>59.4338</item>
+        
+    </string-array>
+    <string-array name="poi_longitudes">
+        <item>24.63845</item><!-- sassijaani -->
+        <item>24.6406</item><!-- kostriaseme -->
+        <item>24.6417</item><!-- nuki -->
+        <item>24.6423</item><!--  -->
+        <item>24.6427</item><!--  -->
+        <item>24.6439</item><!--  -->
+        <item>24.6432</item><!--  -->
+        <item>24.6358</item><!--  -->
+        <item>24.6363</item><!--  -->
+        <item>24.6303</item><!--  -->
+        <item>24.6301</item><!--  -->
+        <item>24.6290</item><!--  -->
+        <item>24.6314</item><!--  -->
+        <item>24.6295</item><!--  -->
+        <item>24.6357</item><!--  -->
+        <item>24.6350</item><!--  -->
+        <item>24.6366</item><!--  -->
+        <item>24.6267</item><!--  -->
+        <item>24.6267</item><!--  -->
+        <item>24.6343</item><!--  -->
+        <item>24.6353</item><!--  -->
+        <item>24.6332</item><!--  -->
+        <item>24.6401</item><!--  -->
+        <item>24.6382</item><!--  -->
+        <item>24.6375</item><!--  -->
+        <item>24.6360</item><!--  -->
+        <item>24.6406</item><!--  -->
+    </string-array>
+    
+</resources>

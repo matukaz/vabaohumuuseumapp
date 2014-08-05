@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="service_pictures">
+        <item></item>
+        <item>@drawable/horse_rides</item>
+        <item></item>
+
+    </array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="journey_names">
+        <item>Nature</item>
+        <item>Winter</item>
+        <item>Stories and legends</item>
+        <item>Journey with kids</item>
+        
+    </string-array>
+    <array name="journeys_lats">
+        <item>@array/journey_nature_lat</item>
+        <item>@array/journey_winter_lat</item>
+        <item>@array/journey_stories_lat</item>
+        <item>@array/journey_children_big_lat</item>
+        
+    </array>
+    <array name="journeys_lons">
+        <item>@array/journey_nature_lon</item>
+        <item>@array/journey_winter_lon</item>
+        <item>@array/journey_stories_lon</item>
+        <item>@array/journey_children_big_lon</item>
+    </array>
+    <string-array name="journey_descriptions">
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+     </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrepeat"
+    tools:context=".ServicesActivity" >
+
+      <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ServicesActivity" >
+	    <ListView
+	        android:id="@+id/museumServices"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:entries="@array/museum_services" >
+	
+	    </ListView>
+	</RelativeLayout>
+	<ImageView
+        android:id="@+id/image_stripes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/backrepeat_stripe"
+        android:contentDescription="Triibuline"
+        android:cropToPadding="false"
+        android:visibility="visible" />
+
+</RelativeLayout>
