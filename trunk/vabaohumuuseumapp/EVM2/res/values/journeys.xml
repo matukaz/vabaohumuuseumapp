@@ -1,5 +1,599 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--  Tools -->
+<!-- http://www.miniwebtool.com/remove-spaces/ -->
+<!-- http://www.informationfreeway.org/ -->
+<!-- http://itouchmap.com/latlong.html -->
+<!-- http://www.evm.ee/est/muuseumi-kaart.m/muuseumi-kaart/eesti-vabaohumuuseum -->
+
 <resources>
+       <string-array name="journey_history_big_circle_lat">           
+		<item>59.431631</item>
+		<item>59.432098</item>
+		<item>59.432589</item>
+		<item>59.432962</item>
+		<item>59.433227</item>
+		<item>59.433586</item>
+		<item>59.433939</item>
+		<item>59.434326</item>
+		<item>59.434358</item>
+		<item>59.434011</item>
+		<item>59.434662</item>
+		<item>59.435126</item>
+		<item>59.435665</item>
+		<item>59.436714</item>
+		<item>59.437112</item>
+		<item>59.436867</item>
+		<item>59.436971</item>
+		<item>59.436676</item>
+		<item>59.436490</item>
+		<item>59.436725</item>
+		<item>59.436370</item>
+		<item>59.435432</item>
+		<item>59.434646</item>
+		<item>59.434668</item>
+		<item>59.434455</item>
+		<item>59.433915</item>
+		<item>59.433419</item>
+		<item>59.432710</item>
+		<item>59.431631</item>               
+     </string-array>       
+       
+<string-array name="journey_history_big_circle_lon">           
+		<item>24.638225</item>
+		<item>24.638938</item>
+		<item>24.639593</item>
+		<item>24.640081</item>
+		<item>24.640422</item>
+		<item>24.640923</item>
+		<item>24.641425</item>
+		<item>24.641910</item>
+		<item>24.642219</item>
+		<item>24.642479</item>
+		<item>24.641899</item>
+		<item>24.641379</item>
+		<item>24.640022</item>
+		<item>24.638729</item>
+		<item>24.638171</item>
+		<item>24.637345</item>
+		<item>24.636723</item>
+		<item>24.637098</item>
+		<item>24.637002</item>
+		<item>24.635435</item>
+		<item>24.635628</item>
+		<item>24.635725</item>
+		<item>24.637458</item>
+		<item>24.637715</item>
+		<item>24.637924</item>
+		<item>24.636369</item>
+		<item>24.635543</item>
+		<item>24.636540</item>
+		<item>24.638225</item>	           
+     </string-array>
+     
+
+ <string-array name="journey_history_short_circle_lat">
+		<item>59.432971</item>
+		<item>59.432857</item>
+		<item>59.432677</item>
+		<item>59.432557</item>
+		<item>59.432778</item>
+		<item>59.432952</item>
+		<item>59.433255</item>
+		<item>59.433282</item>
+		<item>59.433484</item>
+		<item>59.433899</item>
+		<item>59.434243</item>
+		<item>59.434412</item>
+		<item>59.434379</item>
+		<item>59.434338</item>
+		<item>59.434338</item>
+		<item>59.434635</item>
+		<item>59.434675</item>
+		<item>59.434716</item>
+		<item>59.434959</item>
+		<item>59.434868</item>
+		<item>59.434778</item>
+		<item>59.434592</item>
+		<item>59.434644</item>
+		<item>59.433981</item>
+		<item>59.434644</item>
+		<item>59.434314</item>
+		<item>59.433806</item>		      
+  </string-array>
+  
+ 
+<string-array name="journey_history_short_circle_lon">
+		<item>24.642892</item>
+		<item>24.639941</item>
+		<item>24.640800</item>
+		<item>24.641358</item>
+		<item>24.641776</item>
+		<item>24.642125</item>
+		<item>24.643053</item>
+		<item>24.643793</item>
+		<item>24.644254</item>
+		<item>24.643632</item>
+		<item>24.643911</item>
+		<item>24.643364</item>
+		<item>24.642345</item>
+		<item>24.642109</item>
+		<item>24.642109</item>
+		<item>24.640456</item>
+		<item>24.639966</item>
+		<item>24.639532</item>
+		<item>24.638677</item>
+		<item>24.638105</item>
+		<item>24.637852</item>
+		<item>24.637613</item>
+		<item>24.637464</item>
+		<item>24.636476</item>
+		<item>24.637464</item>
+		<item>24.638193</item>
+		<item>24.639180</item>      
+  </string-array>
+ 
+
+
+   <string-array name="journey_history_rear_circle_lat">
+		<item>59.431643</item>
+		<item>59.433225</item>
+		<item>59.434592</item>
+		<item>59.434826</item>
+		<item>59.434961</item>
+		<item>59.435216</item>
+		<item>59.435219</item>
+		<item>59.435390</item>
+		<item>59.435592</item>
+		<item>59.435734</item>
+		<item>59.436195</item>
+		<item>59.437116</item>
+		<item>59.437242</item>
+		<item>59.436986</item>
+		<item>59.437153</item>
+		<item>59.436954</item>
+		<item>59.436670</item>
+		<item>59.437093</item>
+		<item>59.437586</item>
+		<item>59.437738</item>
+		<item>59.438285</item>
+		<item>59.438454</item>
+		<item>59.437925</item>
+		<item>59.437281</item>
+		<item>59.436540</item>
+		<item>59.435690</item>
+		<item>59.435266</item>
+		<item>59.435446</item>
+		<item>59.436250</item>
+		<item>59.436430</item>
+		<item>59.434671</item>
+		<item>59.433402</item>
+		<item>59.431643</item>
+       
+ </string-array>
+   <string-array name="journey_history_rear_circle_lon">
+       
+		<item>24.638222</item>
+		<item>24.640424</item>
+		<item>24.637616</item>
+		<item>24.637954</item>
+		<item>24.638681</item>
+		<item>24.638933</item>
+		<item>24.639357</item>
+		<item>24.639421</item>
+		<item>24.639759</item>
+		<item>24.639899</item>
+		<item>24.639137</item>
+		<item>24.638139</item>
+		<item>24.637704</item>
+		<item>24.636857</item>
+		<item>24.636503</item>
+		<item>24.636717</item>
+		<item>24.636648</item>
+		<item>24.635425</item>
+		<item>24.634915</item>
+		<item>24.634084</item>
+		<item>24.633611</item>
+		<item>24.631197</item>
+		<item>24.630371</item>
+		<item>24.630913</item>
+		<item>24.630350</item>
+		<item>24.629752</item>
+		<item>24.629883</item>
+		<item>24.631239</item>
+		<item>24.632388</item>
+		<item>24.633687</item>
+		<item>24.637388</item>
+		<item>24.635564</item>
+		<item>24.638222</item>
+
+       
+       
+ </string-array>
+
+    <string-array name="journey_architecture_big_circle_lat">
+        <item>59.431648</item>
+		<item>59.433239</item>
+		<item>59.434330</item>
+		<item>59.434359</item>
+		<item>59.434004</item>
+		<item>59.434359</item>
+		<item>59.434472</item>
+		<item>59.434941</item>
+		<item>59.435219</item>
+		<item>59.435236</item>
+		<item>59.435470</item>
+		<item>59.435738</item>
+		<item>59.436196</item>
+		<item>59.436234</item>
+		<item>59.436976</item>
+		<item>59.437118</item>
+		<item>59.436507</item>
+		<item>59.436594</item>
+		<item>59.436425</item>
+		<item>59.434625</item>
+		<item>59.434401</item>
+		<item>59.434625</item>
+		<item>59.433418</item>
+		<item>59.431648</item>
+        
+ </string-array>
+           <string-array name="journey_architecture_big_circle_lon">
+               <item>24.638214</item>
+		<item>24.640456</item>
+		<item>24.641916</item>
+		<item>24.642219</item>
+		<item>24.642487</item>
+		<item>24.642219</item>
+		<item>24.641293</item>
+		<item>24.638708</item>
+		<item>24.638922</item>
+		<item>24.639351</item>
+		<item>24.639663</item>
+		<item>24.639888</item>
+		<item>24.639137</item>
+		<item>24.637914</item>
+		<item>24.636916</item>
+		<item>24.635800</item>
+		<item>24.635221</item>
+		<item>24.634513</item>
+		<item>24.633687</item>
+		<item>24.637442</item>
+		<item>24.638021</item>
+		<item>24.637442</item>
+		<item>24.635537</item>
+		<item>24.638214</item>
+               
+  </string-array>
+   <string-array name="journey_architecture_small_circle_lat">
+       <item>59.433244</item>
+		<item>59.432810</item>
+		<item>59.432510</item>
+		<item>59.433255</item>
+		<item>59.433298</item>
+		<item>59.433702</item>
+		<item>59.434340</item>
+		<item>59.434591</item>
+		<item>59.434327</item>
+		<item>59.434968</item>
+		<item>59.434586</item>
+		<item>59.434652</item>
+		<item>59.433981</item>
+		<item>59.434652</item>
+		<item>59.433233</item>
+		<item>59.433244</item>
+       
+  </string-array>
+    <string-array name="journey_architecture_small_circle_lon">
+        <item>24.640446</item>
+		<item>24.639893</item>
+		<item>24.641283</item>
+		<item>24.643026</item>
+		<item>24.644061</item>
+		<item>24.642833</item>
+		<item>24.642227</item>
+		<item>24.642318</item>
+		<item>24.641905</item>
+		<item>24.638697</item>
+		<item>24.637645</item>
+		<item>24.637431</item>
+		<item>24.636444</item>
+		<item>24.637431</item>
+		<item>24.640424</item>
+		<item>24.640446</item>
+		        
+  </string-array>
+           
+    <string-array name="journey_architecture_rear_circle_lat">
+        <item> 59.433424 </item>
+		<item> 59.433227 </item>
+		<item> 59.434595 </item>
+		<item> 59.434955 </item>
+		<item> 59.435220 </item>
+		<item> 59.435237 </item>
+		<item> 59.435386 </item>
+		<item> 59.435731 </item>
+		<item> 59.436198 </item>
+		<item> 59.436817 </item>
+		<item> 59.437194 </item>
+		<item> 59.436436 </item>
+		<item> 59.436714 </item>
+		<item> 59.437287 </item>
+		<item> 59.436403 </item>
+		<item> 59.435274 </item>
+		<item> 59.435443 </item>
+		<item> 59.436218 </item>
+		<item> 59.436436 </item>
+		<item> 59.434630 </item>
+		<item> 59.433402 </item>
+		<item> 59.433424 </item>
+        
+</string-array>
+        
+	<string-array name="journey_architecture_rear_circle_lon">
+        <item> 24.635532 </item>
+		<item> 24.640424 </item>
+		<item> 24.637420 </item>
+		<item> 24.638681 </item>
+		<item> 24.638917 </item>
+		<item> 24.639343 </item>
+		<item> 24.639408 </item>
+		<item> 24.639896 </item>
+		<item> 24.639142 </item>
+		<item> 24.637313 </item>
+		<item> 24.636079 </item>
+		<item> 24.633665 </item>
+		<item> 24.633547 </item>
+		<item> 24.631369 </item>
+		<item> 24.630146 </item>
+		<item> 24.629921 </item>
+		<item> 24.631251 </item>
+		<item> 24.632206 </item>
+		<item> 24.633665 </item>
+		<item> 24.637442 </item>
+		<item> 24.635521 </item>
+		<item> 24.635532 </item>
+			    
+</string-array>
+
+	 <string-array name="journey_stories_lat">
+        <item>59.4316</item>
+        <item>59.4332</item>
+        <item>59.4327</item>
+        <item>59.4330</item>
+        <item>59.4330</item>
+        <item>59.4332</item>
+        <item>59.4335</item>
+        <item>59.4337</item>
+        <item>59.4338</item>
+        <item>59.4339</item>
+        <item>59.4339</item>
+        <item>59.4341</item>
+        <item>59.4343</item>
+        <item>59.4343</item>
+        <item>59.4346</item>
+        <item>59.4344</item>
+        <item>59.4346</item>
+        <item>59.4348</item>
+        <item>59.4349</item>
+        <item>59.4352</item>
+        <item>59.4349</item>
+        <item>59.4348</item>
+        <item>59.4345</item>
+        <item>59.4332</item>
+        <item>59.4316</item>
+    </string-array>
+    <string-array name="journey_stories_lon">
+        <item>24.6381</item>
+        <item>24.6404</item>
+        <item>24.6415</item>
+        <item>24.6421</item>
+        <item>24.6424</item>
+        <item>24.6429</item>
+        <item>24.6434</item>
+        <item>24.6435</item>
+        <item>24.6432</item>
+        <item>24.6428</item>
+        <item>24.6424</item>
+        <item>24.6423</item>
+        <item>24.6421</item>
+        <item>24.6418</item>
+        <item>24.6418</item>
+        <item>24.6418</item>
+        <item>24.6406</item>
+        <item>24.6391</item>
+        <item>24.6387</item>
+        <item>24.6389</item>
+        <item>24.6387</item>
+        <item>24.6380</item>
+        <item>24.6377</item>
+        <item>24.6404</item>
+        <item>24.6381</item>
+    </string-array>
+    
+
+      <string-array name="journey_romantic_lat">
+          <item> 59.431635 </item>
+		<item> 59.432825 </item>
+		<item> 59.432431 </item>
+		<item> 59.433266 </item>
+		<item> 59.434232 </item>
+		<item> 59.434445 </item>
+		<item> 59.434930 </item>
+		<item> 59.435508 </item>
+		<item> 59.435759 </item>
+		<item> 59.436190 </item>
+		<item> 59.437156 </item>
+		<item> 59.437112 </item>
+		<item> 59.437576 </item>
+		<item> 59.437914 </item>
+		<item> 59.437112 </item>
+		<item> 59.436627 </item>
+		<item> 59.436436 </item>
+		<item> 59.434641 </item>
+		<item> 59.433419 </item>
+		<item> 59.431635 </item>
+          
+     </string-array>
+      <string-array name="journey_romantic_lon">
+        <item> 24.638225 </item>
+		<item> 24.639899 </item>
+		<item> 24.641165 </item>
+		<item> 24.643042 </item>
+		<item> 24.643922 </item>
+		<item> 24.642774 </item>
+		<item> 24.642946 </item>
+		<item> 24.643471 </item>
+		<item> 24.642613 </item>
+		<item> 24.642055 </item>
+		<item> 24.639169 </item>
+		<item> 24.638118 </item>
+		<item> 24.634899 </item>
+		<item> 24.634330 </item>
+		<item> 24.638118 </item>
+		<item> 24.634480 </item>
+		<item> 24.633665 </item>
+		<item> 24.637463 </item>
+		<item> 24.635510 </item>
+		<item> 24.638225 </item>
+		          
+     </string-array><string-array name="journey_children_small_lat">
+		<item>59.431643</item>
+		<item>59.433214</item>
+		<item>59.432960</item>
+		<item>59.432665</item>
+		<item>59.433257</item>
+		<item>59.433295</item>
+		<item>59.433729</item>
+		<item>59.433953</item>
+		<item>59.433849</item>
+		<item>59.433980</item>
+		<item>59.434354</item>
+		<item>59.434332</item>
+		<item>59.433261</item>
+		<item>59.434640</item>
+		<item>59.433418</item>
+		<item>59.432280</item>
+		<item>59.431643</item>
+
+         
+     </string-array>
+    <string-array name="journey_children_small_lon">
+        <item>24.638221</item>
+		<item>24.640446</item>
+		<item>24.641159</item>
+		<item>24.641508</item>
+		<item>24.643042</item>
+		<item>24.644040</item>
+		<item>24.643514</item>
+		<item>24.643192</item>
+		<item>24.642929</item>
+		<item>24.642511</item>
+		<item>24.642221</item>
+		<item>24.641905</item>
+		<item>24.640414</item>
+		<item>24.637447</item>
+		<item>24.635529</item>
+		<item>24.637034</item>
+		<item>24.638221</item>
+        
+    </string-array>
+    
+    
+    <string-array name="journey_domestic_animals_lat">
+		<item>59.431641</item>
+		<item>59.431474</item>
+		<item>59.431591</item>
+		<item>59.432543</item>
+		<item>59.432849</item>
+		<item>59.433228</item>
+		<item>59.432659</item>
+		<item>59.433284</item>
+		<item>59.433928</item>
+		<item>59.434057</item>
+		<item>59.433844</item>
+		<item>59.433997</item>
+		<item>59.434352</item>
+		<item>59.434330</item>
+		<item>59.434957</item>
+		<item>59.434592</item>
+		<item>59.434644</item>
+		<item>59.433422</item>
+		<item>59.431641</item>
+
+        
+    </string-array>
+    <string-array name="journey_domestic_animals_lon">
+        <item>24.638222</item>
+		<item>24.638949</item>
+		<item>24.640094</item>
+		<item>24.641331</item>
+		<item>24.639931</item>
+		<item>24.640427</item>
+		<item>24.641497</item>
+		<item>24.643077</item>
+		<item>24.643635</item>
+		<item>24.643254</item>
+		<item>24.642988</item>
+		<item>24.642495</item>
+		<item>24.642216</item>
+		<item>24.641891</item>
+		<item>24.638675</item>
+		<item>24.637616</item>
+		<item>24.637463</item>
+		<item>24.635529</item>
+		<item>24.638222</item>
+		        
+        
+    </string-array
+        
+        ><string-array name="journey_museum_farm_gardens_lat">
+        <item>59.431641</item>
+		<item>59.433225</item>
+		<item>59.432665</item>
+		<item>59.433833</item>
+		<item>59.433942</item>
+		<item>59.433846</item>
+		<item>59.433999</item>
+		<item>59.434346</item>
+		<item>59.434335</item>
+		<item>59.435263</item>
+		<item>59.436212</item>
+		<item>59.437238</item>
+		<item>59.437161</item>
+		<item>59.436638</item>
+		<item>59.436430</item>
+		<item>59.437211</item>
+		<item>59.436430</item>
+		<item>59.434597</item>
+		<item>59.433225</item>
+		<item>59.431641</item>
+            
+        </string-array>
+    <string-array name="journey_museum_farm_gardens_lon">
+		<item>24.638219</item>
+		<item>24.640424</item>
+		<item>24.641497</item>
+		<item>24.643573</item>
+		<item>24.643182</item>
+		<item>24.642988</item>
+		<item>24.642490</item>
+		<item>24.642216</item>
+		<item>24.641894</item>
+		<item>24.641122</item>
+		<item>24.639126</item>
+		<item>24.637699</item>
+		<item>24.635897</item>
+		<item>24.634491</item>
+		<item>24.633676</item>
+		<item>24.631616</item>
+		<item>24.633676</item>
+		<item>24.637656</item>
+		<item>24.640424</item>
+		<item>24.638219</item>
+        
+    </string-array>
+ 
+ <!--  järjekord siin ^ -->   
     <string-array name="journey_nature_lat">
         <item>59.4316</item>
         <item>59.4332</item>
@@ -104,60 +698,7 @@
         <item>24.6366</item>
         <item>24.6381</item>
     </string-array>
-    <string-array name="journey_stories_lat">
-        <item>59.4316</item>
-        <item>59.4332</item>
-        <item>59.4327</item>
-        <item>59.4330</item>
-        <item>59.4330</item>
-        <item>59.4332</item>
-        <item>59.4335</item>
-        <item>59.4337</item>
-        <item>59.4338</item>
-        <item>59.4339</item>
-        <item>59.4339</item>
-        <item>59.4341</item>
-        <item>59.4343</item>
-        <item>59.4343</item>
-        <item>59.4346</item>
-        <item>59.4344</item>
-        <item>59.4346</item>
-        <item>59.4348</item>
-        <item>59.4349</item>
-        <item>59.4352</item>
-        <item>59.4349</item>
-        <item>59.4348</item>
-        <item>59.4345</item>
-        <item>59.4332</item>
-        <item>59.4316</item>
-    </string-array>
-    <string-array name="journey_stories_lon">
-        <item>24.6381</item>
-        <item>24.6404</item>
-        <item>24.6415</item>
-        <item>24.6421</item>
-        <item>24.6424</item>
-        <item>24.6429</item>
-        <item>24.6434</item>
-        <item>24.6435</item>
-        <item>24.6432</item>
-        <item>24.6428</item>
-        <item>24.6424</item>
-        <item>24.6423</item>
-        <item>24.6421</item>
-        <item>24.6418</item>
-        <item>24.6418</item>
-        <item>24.6418</item>
-        <item>24.6406</item>
-        <item>24.6391</item>
-        <item>24.6387</item>
-        <item>24.6389</item>
-        <item>24.6387</item>
-        <item>24.6380</item>
-        <item>24.6377</item>
-        <item>24.6404</item>
-        <item>24.6381</item>
-    </string-array>
+   
     <string-array name="journey_children_big_lat">
         <item>59.4316</item>
         <item>59.4332</item>
@@ -244,4 +785,75 @@
         <item>24.6358</item>
         <item>24.6381</item>
     </string-array>
+    
+     <string-array name="journey_running_track_three_km_lat">
+        <item>59.431642</item>
+		<item>59.431473</item>
+		<item>59.431596</item>
+		<item>59.432368</item>
+		<item>59.433260</item>
+		<item>59.434231</item>
+		<item>59.434419</item>
+		<item>59.434444</item>
+		<item>59.434324</item>
+		<item>59.435121</item>
+		<item>59.435672</item>
+		<item>59.436152</item>
+		<item>59.437145</item>
+		<item>59.437112</item>
+		<item>59.437576</item>
+		<item>59.437745</item>
+		<item>59.438345</item>
+		<item>59.438503</item>
+		<item>59.437892</item>
+		<item>59.437260</item>
+		<item>59.436420</item>
+		<item>59.435268</item>
+		<item>59.435443</item>
+		<item>59.436196</item>
+		<item>59.436425</item>
+		<item>59.434636</item>
+		<item>59.433430</item>
+		<item>59.431642</item>
+         
+     </string-array>
+     
+     <string-array name="journey_running_track_three_km_lon">
+        <item>24.638225</item>
+		<item>24.638858</item>
+		<item>24.640118</item>
+		<item>24.641047</item>
+		<item>24.643026</item>
+		<item>24.643900</item>
+		<item>24.643380</item>
+		<item>24.642822</item>
+		<item>24.641905</item>
+		<item>24.641401</item>
+		<item>24.642849</item>
+		<item>24.642173</item>
+		<item>24.639158</item>
+		<item>24.638193</item>
+		<item>24.634931</item>
+		<item>24.634094</item>
+		<item>24.633504</item>
+		<item>24.631369</item>
+		<item>24.630361</item>
+		<item>24.630940</item>
+		<item>24.630167</item>
+		<item>24.629910</item>
+		<item>24.631230</item>
+		<item>24.632163</item>
+		<item>24.633676</item>
+		<item>24.637452</item>
+		<item>24.635521</item>
+		<item>24.638225</item>
+         
+     </string-array>
+     
+     <string-array name="journey_running_track_five_km_lat">
+     </string-array>
+     
+     <string-array name="journey_running_track_five_km_lon">
+     </string-array>
+    
 </resources>

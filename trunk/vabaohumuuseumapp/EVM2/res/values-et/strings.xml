@@ -3,7 +3,7 @@
 
     <string name="app_name">Eesti vabaõhumuuseum</string>
     <string name="action_settings">Seaded</string>
-    <string name="action_language_est">eesti</string>
+    <string name="action_language_est">Eesti</string>
     <string name="action_language_eng">English</string>
     <string name="hello">Tere</string>
     <string name="opening_hours">Avatud iga päev 10-20, talud 10-18</string>
@@ -18,32 +18,95 @@
 	<string name="opening_hours_summer">Täna avatud 10–20, talud 10–18.</string>
 	<string name="opening_hours_winter">Täna avatud 10–17</string>
     <string-array name="journey_names">
-        <item>Looduse õpperada</item>
-        <item>Talvisele külastajale</item>
+        <!-- Ajalugu ja Arhitektuur -->
+        <item>Ajalugu - Suur ring</item>
+        <item>Ajalugu - Väike ring</item>
+        <item>Ajalugu - Tagumine ring</item>
+        <item>Arhitektuur - Suur Ring</item>
+        <item>Arhitektuur - Väike Ring</item>
+        <item>Arhitektuur - Tagumine Ring</item>
+        
+        <!--  Jalutuskäigud -->
         <item>Lood ja legendid</item>
+        <item>Romantikule</item>
+        <item>Talvisele külastajale</item>
+        <item>Retk lastega (väike))</item>
         <item>Retk lastega (suur)</item>
+        
+        
+   		<!--  Loodus ja Loomad -->
+   		<item>Koduloomad</item>
+   		<item>Muuseumi taluaiad</item>   		        
+        <item>Looduse õpperada</item>
+        
+        <!-- Tervisesport -->
+        
+        <item>Jooksurada 3km</item>
+        <item>Jooksurada 5km</item>
+       
+        <!--  Võimlemiskohad pole hetkel mul märgitud, ma ei tea kuidas ka.. -->
+        
+        
+   
+        
+        
     </string-array>
     <string name="message_gps_off">Oma asukoha kaardil nägemiseks lülita sisse GPS ja kalluta korraks ekraani</string>
 	<string-array name="museum_services">
+	    <item>Ürituste korraldamine</item>
         <item>Liikumisvahendite laenutus</item>
         <item>Hobusõit</item>
         <item>Audiogiid</item>
     </string-array>
 	<string-array name="service_descriptions">
+	    <item>Vabaõhumuuseum on imeline paik – lisaks sajanditevanuse külaarhitektuuri nautimisele saab korraldada mitmesuguseid üritusi Kolu kõrtsis, Kuie koolis, Sutlepa kabelis, kiigeplatsil, külaväljakul ja mujal. Vabaõhumuuseumi parkmets ja kõrge liivakivikallas on suurepärane koht piknike pidamiseks. Lisaks pakume põnevaid programme suve- ja talvepäevade, kliendiürituste, sünnipäevade, pulmapidude jne korraldamiseks.\n\n<b>Kolu kõrts</b>\nKolu kõrts on eheda endisaegse interjööriga 19. sajandi keskpaigas ehitatud külakõrts. \nSuurepärane koht meeleoluka päeva veetmiseks mõnusalt hubases ja rahvuslikus miljöös. Ruumid sobivad väga hästi sünnipäevade, stiili- ja jõulupidude, pulmade ja vastuvõttude korraldamiseks. Inspireeriv ja rahulik keskkond sobib ka koolituse või seminari läbiviimiseks. Katame teile peolaua ning vajadusel koostame meelelahutusprogrammi.\nBroneerida on võimalik:\nkõrtsituba (30 inimesele);\nsakstekambrit (20 inimesele); \ntallialust (100-150 inimesele).\nKõrtsi menüü koosneb põhiliselt kodustest rahvuslikest roogadest\nVõimalik on kasutada videoprojektorit, pabertahvlit ja Wifit.\n\n<b>Kiigeplats</b>\nKauni vaatega mereäärne kiigeplats sobib nii väiksematele kui suurematele seltskondadele.\nSuure katusealuse (10x25m, valgustus) alla saab katta peolaua ning ruumi jätkub ka jalakeerutamiseks. Platsil on tualetid, elekter, veevõtu ja grillimise võimalus. Soovi korral saab kiigeplatsile paigaldada ka telgi.\nKiigeplats sobib sünnipäevade, pulmade, kliendiürituste, suve- ja talvepäevade korraldamiseks.\n\n<b>Külaväljak</b>\nKülaväljak sobib suurematele seltskondadele. See pakub harukordset võimalust minna ajas tagasi ja nautida külapidu, keskkonna muudavad tõepärasemaks külakiik ja ümbritsevad talud. Platsile võib soovi korral paigaldada telgi. Elektri kasutamise võimalus.\nKülaväljak sobib kliendiürituste, suve- ja talvepäevade korraldamiseks.\n\n<b>Kuie kool</b>\nKuie koolimaja on Järva-Jaani kihelkonnas asunud vana külakool, kus külalapsed lugema, kirjutama ja rehkendama õppisid. Vanas klassitoas on harukordne võimalus ajas 100 aastat tagasi minna. Külalised saavad proovida sule ja tindiga kirjutamist. Klassituba on sobilik ka abielu registreerimistseremoonia läbiviimiseks.\nKoolimaja teisel korrusel asub seminariruum kuni 20-le inimesele. Võimalik on kasutada videoprojektorit, pabertahvlit ja Wifit.\nRuumid sobivad laste sünnipäevade, abielu registreerimise, kliendiürituste ja seminaride korraldamiseks.\n\n<b>Sepa talu sepikoda</b>\nVõrumaalt pärit sepikojas pakume toredat ja meeleolukat sepa programmi. Osalejad saavad proovida kätt õnnenaela tagumises või tina valamises.\nSepa programm sobib pulmade, sünnipäevapidude ja jõulude meeleolukamaks muutmiseks.\n\n<b>Sutlepa kabel</b>\nSutlepa külas Noarootsi kihelkonnas asunud kabel oli Noarootsi kihelkonnakiriku abikirikuks. Tegemist on ainulaadse sakraalehitisega. Mis võiks olla veel meeldejäävam kui laulatus või ristsed üle 300 aasta vanuses puukirikus!\nSutlepa kabel on sobilik pühakoda nii laulatus- kui ristimistalitusteks.\n\n<b>Piknikuplatsid</b>\nEesti Vabaõhumuuseumi parkmets on vahva koht pikniku pidamiseks igal aastaajal. Piknikulina võib laotada nii mere äärde, külaväljakule kui Nätsi tuuliku ümbrusesse.\n</item>
         <item>Laenutame suvel kärusid, ratastoole, jalgrattaid. Talvel tõukekelke ehk soome kelke. Liikumisvahendite laenutus toimub väravahoones.</item>
-        <item>"Hobusõitu saab teha iga päev kell 11-16. Vankris või saanis on ruumi 10 inimesele. Kohtumispaik on Kolu kõrtsi vastas.\n\nSOOVITAME!
-Osta hobusõidu pilet kassast koos muuseumipiletiga, nii on soodsam! Ühispilet sisaldab väikest hoburingi.
-Vaata täpsemalt: <a href="http://evm.ee/est/hea-teada/muuseumi-teenused/hobusoit">siit</a>"</item>
+        <item>"Hobusõitu saab teha iga päev kell 11-16. Vankris või saanis on ruumi 10 inimesele. Kohtumispaik on Kolu kõrtsi vastas.\n\n <b>SOOVITAME!</b> \n
+		Osta hobusõidu pilet kassast koos muuseumipiletiga, nii on soodsam! Ühispilet sisaldab väikest hoburingi.
+		Vaata täpsemalt: <a href="http://evm.ee/est/hea-teada/muuseumi-teenused/hobusoit">siit</a>"</item>
         <item>Audiogiidi pakume eesti, inglise, vene, saksa, soome ja rootsi keeles.</item>
     </string-array>
     <string-array name="journey_descriptions">
-        <item>Sobib muuseumikülastajale, kes tahab osa saada Kopli lahe kaldale jäävast mitmekesisest loodusest. Näha saab kohalikku metsa, raba ja mereranda ning sealset elustikku, mõelda ökosüsteemis esinevate seoste ja keskkonnaprobleemide üle. Soovitame muuseumi kodulehelt alla laadida õpperaja juhi või osta see muuseumi kassast. Õpperajal on võimalik käia jalgsi, aga kui jalavaeva pelgad, on see läbitav ka rattaga. Soovi korral saad ratta laenutada muuseumi peaväravas.\n\n
+        
+        <item>Kui Sind huvitab, kuidas vanasti taludes elati ja toit lauale saadi, millega tegeleti ühiskondlikes hoonetes ja millised olid eluringi tähtsündmused, asu rännakule.\n
+            Kassast saab kaasa osta ka muuseumijuhi või laenutada audiogiidi, et veelgi rohkem teadmisi ammutada. Julgelt tasub astuda ligi taluperenaistele või -meestele, kes meelsasti oma talu lugu jutustavad.\n
+            </item>  
+          <!-- Ajalugu ja Arhitektuur -->          
+         <item>Täiendada... Ajalugu - Väike ring</item>
+         <item>Täiendada... Ajalugu - Tagumine ring</item>
+         <item>Täiendada... Arhitektuur - Suur ring</item>
+         <item>Täiendada... Arhitektuur - Väike ring</item>
+         <item>Täiendada... Arhitektuur - Tagumine ring</item>
+          <!--  Jalutuskäigud -->
+          	<item>Eesti eri paigust ületoodud hoonetega on vabaõhumuuseumisse jõudnud ka erinevad külajutud ning varjud sündmustest, mida neis majades on läbi elatud. Sellel rajal on võimalik osa saada meie hoonetega seotud tõsilugudest ja legendidest. \n\nAega varu: 1 - 1,5 tundi\nPeamised huvipunktid:\nSassi-Jaani talu, Köstriaseme talu, Pulga talu, Härjapea talu, Nätsi tuulik, Šveitsi villa, Via Appia, Lau pood, Kolu kõrts.</item>
+      	<item>Täiendada... Romantikule</item>
+        <item>Talvine vabaõhumuusem ei maga talveund. Ta tegutseb küll veidi rahulikumas rütmis, mis pole aga sugugi igavlev. Pigem peegeldab see sisemist tasakaalu, läbimõeldud tegutsemist, adra seadmist kevadiseks künniks. Siin on hea olla, kui soovid viibida värskes õhus keset ajaloolist küla. Samuti saab talvel kasutada võimalust, mida suvel tihti nappima kipub: istuda mõnes talus korraks maha ja rääkida perenaisega sellest, kuidas vanasti elati. \n\nAega varu: 1 tund\nPeamised huvipunktid:\nSepa talu, Kuie kool, Lau külapood, Härjapea talu, Kolu kõrts.</item>
+      	<item>Muuseumi kassast saab alguse pikk retk meie esivanemate maailma. Sestap mõtle hoolikalt järele, kas oled ühes võtnud kõik asjad, mida sel teel võib vaja minna. Muuseumi käsitööpoes on viimane võimalus vajaliku soetamiseks. Vihmaseks ilmaks keep, päikesekaitseks suvine müts või rätik, jahedaks ilmaks villased sokid, väsimuse ennetamiseks jalg- või tõukeratas, käru või talvisel ajal hoopiski soome kelk. Kuna päev tõotab tulla pikk, on tark varustada end joogi, aga miks mitte ka kukekommi või mõne tervisliku ampsuga. Lapsevanemal on hea teada, et kassamajas asub muuseumi ainus mähkimislaud.</item>
+        <item>Muuseumi kassast saab alguse pikk retk meie esivanemate maailma. Sestap mõtle hoolikalt järele, kas oled ühes võtnud kõik asjad, mida sel teel võib vaja minna. Muuseumi käsitööpoes on viimane võimalus vajaliku soetamiseks. Vihmaseks ilmaks keep, päikesekaitseks suvine müts või rätik, jahedaks ilmaks villased sokid, väsimuse ennetamiseks jalg- või tõukeratas, käru või talvisel ajal hoopiski soome kelk. Kuna päev tõotab tulla pikk, on tark varustada end joogi, aga miks mitte ka kukekommi või mõne tervisliku ampsuga. Lapsevanemal on hea teada, et kassamajas asub muuseumi ainus mähkimislaud. \n\nAega varu: 1,5 - 2 tundi\nPeamised huvipunktid:\nSassi-Jaani talu, Köstriaseme talu, Pulga talu, Härjapea talu, Kiigeplats, Saarte tuulikud, Lau külapood, Kuie koolimaja, Sepa talu, Kolu kõrts.</item>
+      	<!--  Loodus ja Loomad -->
+        
+        <item>Täiendada Koduloomad</item>
+        
+        
+        <!--  siiamaani kõik korras ^ -->
+       <!-- Looduse õpperada--> <item>Sobib muuseumikülastajale, kes tahab osa saada Kopli lahe kaldale jäävast mitmekesisest loodusest. Näha saab kohalikku metsa, raba ja mereranda ning sealset elustikku, mõelda ökosüsteemis esinevate seoste ja keskkonnaprobleemide üle. Soovitame muuseumi kodulehelt alla laadida õpperaja juhi või osta see muuseumi kassast. Õpperajal on võimalik käia jalgsi, aga kui jalavaeva pelgad, on see läbitav ka rattaga. Soovi korral saad ratta laenutada muuseumi peaväravas.\n\n
             Aega varu: 2 tundi\n
    			Peamised huvipunktid:\n
 			Sassi-Jaani talu, Nätsi tuulik, Härjapea talu, kivikülv, liivakivi paljand, kiigeplats, Võrgukuurid, mets Lõuna-Eesti ja saarte küla vahel, Õismäe raba.
             </item>
-        <item>Talvine vabaõhumuusem ei maga talveund. Ta tegutseb küll veidi rahulikumas rütmis, mis pole aga sugugi igavlev. Pigem peegeldab see sisemist tasakaalu, läbimõeldud tegutsemist, adra seadmist kevadiseks künniks. Siin on hea olla, kui soovid viibida värskes õhus keset ajaloolist küla. Samuti saab talvel kasutada võimalust, mida suvel tihti nappima kipub: istuda mõnes talus korraks maha ja rääkida perenaisega sellest, kuidas vanasti elati. \n\nAega varu: 1 tund\nPeamised huvipunktid:\nSepa talu, Kuie kool, Lau külapood, Härjapea talu, Kolu kõrts.</item>
-    	<item>Eesti eri paigust ületoodud hoonetega on vabaõhumuuseumisse jõudnud ka erinevad külajutud ning varjud sündmustest, mida neis majades on läbi elatud. Sellel rajal on võimalik osa saada meie hoonetega seotud tõsilugudest ja legendidest. \n\nAega varu: 1 - 1,5 tundi\nPeamised huvipunktid:\nSassi-Jaani talu, Köstriaseme talu, Pulga talu, Härjapea talu, Nätsi tuulik, Šveitsi villa, Via Appia, Lau pood, Kolu kõrts.</item>
-    	<item>Muuseumi kassast saab alguse pikk retk meie esivanemate maailma. Sestap mõtle hoolikalt järele, kas oled ühes võtnud kõik asjad, mida sel teel võib vaja minna. Muuseumi käsitööpoes on viimane võimalus vajaliku soetamiseks. Vihmaseks ilmaks keep, päikesekaitseks suvine müts või rätik, jahedaks ilmaks villased sokid, väsimuse ennetamiseks jalg- või tõukeratas, käru või talvisel ajal hoopiski soome kelk. Kuna päev tõotab tulla pikk, on tark varustada end joogi, aga miks mitte ka kukekommi või mõne tervisliku ampsuga. Lapsevanemal on hea teada, et kassamajas asub muuseumi ainus mähkimislaud. \n\nAega varu: 1,5 - 2 tundi\nPeamised huvipunktid:\nSassi-Jaani talu, Köstriaseme talu, Pulga talu, Härjapea talu, Kiigeplats, Saarte tuulikud, Lau külapood, Kuie koolimaja, Sepa talu, Kolu kõrts.</item>
-    </string-array>
+            
+        <!-- Tervisesport -->
+        
+         <item>Täiendada jooksurada 3km</item>
+         <item>Täiendada jooksurada 5km</item>
+         
+       
+       
+       
+       
+       
+       
+  <!--  ei tea mille oma see on -->
+<item>Eesti eri paigust ületoodud hoonetega on vabaõhumuuseumisse jõudnud ka erinevad külajutud ning varjud sündmustest, mida neis majades on läbi elatud. Sellel rajal on võimalik osa saada meie hoonetega seotud tõsilugudest ja legendidest. \n\nAega varu: 1 - 1,5 tundi\nPeamised huvipunktid:\nSassi-Jaani talu, Köstriaseme talu, Pulga talu, Härjapea talu, Nätsi tuulik, Šveitsi villa, Via Appia, Lau pood, Kolu kõrts.</item>
+     </string-array>
 </resources>
