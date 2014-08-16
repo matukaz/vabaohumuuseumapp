@@ -1,29 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="journey_names">
-        <item>Nature</item>
-        <item>Winter</item>
+        <item>History - Big Circle</item>
+        <item>History - Short Circle</item>
+        <item>History - Rear Circle</item>   
+        <item>Architecture - Big Circle</item>
+        <item>Architecture - Small Circle</item>       
+        <item>Architecture - Rear Circle</item>
+        
+        <!--  Jalutuskäigud -->
         <item>Stories and legends</item>
-        <item>Journey with kids</item>
+        <item>Romantic</item>
+        <item>Winter</item>
+        <item>Journey with kids(Small)</item>
+        <item>Journey with kids(Big)</item>
+                 
+   		<!--  Loodus ja Loomad -->   
+   		<item>Domestic animals</item>
+   		<item>Museum farm gardens</item>   		       
+        <item>Nature</item>
         
+        <!-- Tervisesport -->
+        <item>Running track 3km</item>
+        <item>Running track 5km</item>
+    
     </string-array>
+    
     <array name="journeys_lats">
-        <item>@array/journey_nature_lat</item>
-        <item>@array/journey_winter_lat</item>
-        <item>@array/journey_stories_lat</item>
-        <item>@array/journey_children_big_lat</item>
+         <item>@array/journey_history_big_circle_lat</item>
+         <item>@array/journey_history_short_circle_lat</item>
+         <item>@array/journey_history_rear_circle_lat</item>        
+         <item>@array/journey_architecture_big_circle_lat</item>         
+         <item>@array/journey_architecture_small_circle_lat</item>         
+         <item>@array/journey_architecture_rear_circle_lat</item>
         
+          <!--  Jalutuskäigud -->         
+         <item>@array/journey_stories_lat</item>         
+         <item>@array/journey_romantic_lat</item>
+         <item>@array/journey_winter_lat</item>
+         <item>@array/journey_children_small_lat</item>
+         <item>@array/journey_children_big_lat</item>
+                  
+		 <!--  Loodus ja Loomad -->    
+   		 <item>@array/journey_domestic_animals_lat</item>
+   		 <item>@array/journey_museum_farm_gardens_lat</item>   		    
+         <item>@array/journey_nature_lat</item>
+        
+         <!-- Tervisesport -->
+         <item>@array/journey_running_track_three_km_lat</item>
+         <item>@array/journey_running_track_five_km_lat</item>
+   
     </array>
+    
     <array name="journeys_lons">
+        <item>@array/journey_history_big_circle_lon</item>
+        <item>@array/journey_history_short_circle_lon</item>
+        <item>@array/journey_history_rear_circle_lon</item>         
+        <item>@array/journey_architecture_big_circle_lon</item>
+        <item>@array/journey_architecture_small_circle_lon</item>        
+        <item>@array/journey_architecture_rear_circle_lon</item>        
+         
+        <!--  Jalutuskäigud -->
+        <item>@array/journey_stories_lon</item>         
+        <item>@array/journey_romantic_lon</item>
+        <item>@array/journey_winter_lon</item>          
+        <item>@array/journey_children_small_lon</item>
+        <item>@array/journey_children_big_lon</item>  
+        
+		<!--  Loodus ja Loomad --> 
+		<item>@array/journey_domestic_animals_lon</item>
+		<item>@array/journey_museum_farm_gardens_lon</item>		       
         <item>@array/journey_nature_lon</item>
-        <item>@array/journey_winter_lon</item>
-        <item>@array/journey_stories_lon</item>
-        <item>@array/journey_children_big_lon</item>
+        
+         <!-- Tervisesport -->
+        <item>@array/journey_running_track_three_km_lon</item>
+        <item>@array/journey_running_track_five_km_lon</item>
+       
     </array>
+    
     <string-array name="journey_descriptions">
         <item>This information is being translated and is currently available only in Estonian </item>
         <item>This information is being translated and is currently available only in Estonian </item>
         <item>This information is being translated and is currently available only in Estonian </item>
         <item>This information is being translated and is currently available only in Estonian </item>
-     </string-array>
+        <item>This information is being translated and is currently available only in Estonian </item>
+          <!--  Jalutuskäigud -->
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+           
+        <!--  Loodus ja Loomad -->
+        <item>This information is being translated and is currently available only in Estonian </item>
+  		<item>This information is being translated and is currently available only in Estonian </item>
+  	    <item>This information is being translated and is currently available only in Estonian </item>
+    
+  	     <!-- Tervisesport -->
+  	    <item>This information is being translated and is currently available only in Estonian </item>
+        <item>This information is being translated and is currently available only in Estonian </item>
+  	     </string-array>
 </resources>
