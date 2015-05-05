@@ -29,7 +29,7 @@ import android.widget.TextView;
 import android.support.v7.app.*;
 import android.support.v7.internal.view.menu.MenuView.ItemView;
 
-public class Home extends ActionBarActivity {
+public class Home extends AppCompatActivity {
 
 	@SuppressLint("NewApi")
 	@Override
@@ -39,12 +39,8 @@ public class Home extends ActionBarActivity {
 		
 		getSupportActionBar().setDisplayShowTitleEnabled(false);
 		
-		if(android.os.Build.VERSION.SDK_INT >= 11){
-			getActionBar().setDisplayUseLogoEnabled(true);
-		}else{
-			getSupportActionBar().setDisplayUseLogoEnabled(true);
-		}
-		
+		getSupportActionBar().setDisplayUseLogoEnabled(true);
+					
 		setOpeningHours();
 		
 	}
@@ -58,19 +54,13 @@ public class Home extends ActionBarActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		//ActionBarUtilities.showLanguageSettings(this);
 
-		switch(item.getItemId())
-		{
-		case R.id.action_language_est:
+		int itemId = item.getItemId();
+		if (itemId == R.id.action_language_est) {
 			ActionBarUtilities.switchLanguage(0, this);
-			break;
-
-		case R.id.action_language_eng:
+		} else if (itemId == R.id.action_language_eng) {
 			ActionBarUtilities.switchLanguage(1, this);
-			break;
-			
-		case R.id.action_language_rus:
+		} else if (itemId == R.id.action_language_rus) {
 			ActionBarUtilities.switchLanguage(2, this);
-			break;
 		}
 
 		return super.onOptionsItemSelected(item);

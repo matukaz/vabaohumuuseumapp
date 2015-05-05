@@ -117,9 +117,9 @@ public class MuseumMapActivity extends Activity implements OnSharedPreferenceCha
 		  super.onCreate(savedInstanceState);
 		  
 		  
-		  if (android.os.Build.VERSION.SDK_INT >= 11) {
-			  getActionBar().hide();
-		  }
+//	  if (android.os.Build.VERSION.SDK_INT >= 11) {
+	//		  getSupportActionBar().hide();
+		//  }
 		 
 		  
 		  //Compulsory before using any mapsforge stuff

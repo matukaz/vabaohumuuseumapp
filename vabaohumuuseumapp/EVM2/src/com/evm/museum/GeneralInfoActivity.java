@@ -10,10 +10,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-public class GeneralInfoActivity extends ActionBarActivity {
+public class GeneralInfoActivity extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,7 @@ public class GeneralInfoActivity extends ActionBarActivity {
 	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	private void setupActionBar() {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			getActionBar().setDisplayHomeAsUpEnabled(true);
+			getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		}
 	}
 
@@ -55,8 +56,8 @@ public class GeneralInfoActivity extends ActionBarActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		//ActionBarUtilities.showLanguageSettings(this);
 		
-		switch (item.getItemId()) {
-		case android.R.id.home:
+		int itemId = item.getItemId();
+		if (itemId == android.R.id.home) {
 			// This ID represents the Home or Up button. In the case of this
 			// activity, the Up button is shown. Use NavUtils to allow users
 			// to navigate up one level in the application structure. For
@@ -66,16 +67,12 @@ public class GeneralInfoActivity extends ActionBarActivity {
 			//
 			NavUtils.navigateUpFromSameTask(this);
 			return true;
-		case R.id.action_language_est:
+		} else if (itemId == R.id.action_language_est) {
 			ActionBarUtilities.switchLanguage(0, this);
-			break;
-
-		case R.id.action_language_eng:
+		} else if (itemId == R.id.action_language_eng) {
 			ActionBarUtilities.switchLanguage(1, this);
-			break;
-		case R.id.action_language_rus:
+		} else if (itemId == R.id.action_language_rus) {
 			ActionBarUtilities.switchLanguage(2, this);
-			break;
 		}
 		return super.onOptionsItemSelected(item);
 	}
